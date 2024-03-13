@@ -1,4 +1,5 @@
 //Pantalla2_0395
+import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 class Pantalla2_0395 extends StatelessWidget {
@@ -9,25 +10,24 @@ class Pantalla2_0395 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Pantalla 2 Nevarez0395'),
-        backgroundColor: Color(0xffa81e57),
+        backgroundColor: Color(0xff136574),
       ),
       body: Center(
-          child: Container(
-              width: double.infinity,
-              height: 300,
-              color: Color(0xff8b2851),
-              child: Card(
-                color: Color(0xffe17ba6),
-                margin: EdgeInsets.all(32),
-                child: Padding(
-                  padding: EdgeInsets.all(70),
-                  child: Text(
-                    "Container Card",
-                    style: TextStyle(fontSize: 30),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-              ))),
+        child: Container(
+          color: Color(0xff5aabc3),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Nevarez 0395',
+            style: TextStyle(fontSize: 30),
+            textAlign: TextAlign.center,
+          ),
+        ),
+      ),
     );
   } //Widgets
 } //Fin Pantalla 2

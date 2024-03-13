@@ -1,7 +1,6 @@
 //Pantalla1_0395
-import 'dart:html';
-
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
 
 class Pantalla1_0395 extends StatelessWidget {
   const Pantalla1_0395({Key? key}) : super(key: key);
@@ -11,20 +10,19 @@ class Pantalla1_0395 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Card p1 Nevarez0395"),
-        backgroundColor: Color(0xff704482),
+        backgroundColor: Color(0xff270435),
       ),
       body: Center(
-        child: Card(
-          elevation: 10,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-          color: Color(0xffc5a1d4),
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: Text(
-              "Card Nevarez",
-              style: TextStyle(fontSize: 30, color: Color(0xff000000)),
-            ),
+        child: Container(
+          color: Color(0xff8f769f),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Nevarez 0395',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),

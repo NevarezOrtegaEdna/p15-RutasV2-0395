@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nevarez0395/pantalla3_0395.dart';
 import 'package:nevarez0395/pantalla2_0395.dart';
 import 'package:nevarez0395/pantalla1_0395.dart';
 import 'package:nevarez0395/pantallainicial_0395.dart';
@@ -17,6 +18,7 @@ class MiApp0395 extends StatelessWidget {
         '/': (context) => const Pantallainicial_0395(),
         '/Pantalla1_0395': (context) => const Pantalla1_0395(),
         '/Pantalla2_0395': (context) => const Pantalla2_0395(),
+        '/Pantalla3_0395': (context) => const Pantalla3_0395(),
       }, //Fin rutas de paginas
     );
   } //Fin widgets
